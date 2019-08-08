@@ -4,15 +4,13 @@ namespace ConsoleApp1
 {
     class Program
     {
-        
-        static void escreveNaTela(String txt)
+        static void escreveNaTela()
         {
-            Console.WriteLine(txt);
+            Console.WriteLine("vamos fazer um terceiro commit!");
         }
         static void Main(string[] args)
         {
-            String txt = "Alo gitHub";
-            escreveNaTela(txt);
+            escreveNaTela();
             Console.ReadKey();
         }
     }
